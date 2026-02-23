@@ -1,12 +1,11 @@
 # ETL Pipeline for GDP Data Engineering
 
-## Executive Summary
+## Summary
 
 This project demonstrates the design and implementation of a
 production-style ETL (Extract, Transform, Load) data pipeline for
 processing and managing macroeconomic GDP data. The system is built
-using Python and SQL-based storage, following industry best practices
-for modularity, logging, data validation, and reproducibility.
+using Python and SQL-based storage.
 
 The pipeline simulates real-world data engineering workflows used in
 financial analytics, economic forecasting, and enterprise data
@@ -18,21 +17,16 @@ platforms.
 
 The pipeline follows a structured three-layer architecture:
 
-**1. Data Ingestion Layer (Extract)** - data retrieval from
-structured sources (CSV/API/Web)
+**1. Data Ingestion Layer (Extract)** - data retrieval from Web using Beutiful soup 
 
-**2. Data Processing Layer (Transform)** - Data validation and schema
-enforcement - Null handling, anomaly detection, type casting, normalization, Structured logging for
+**2. Data Processing Layer (Transform)** - Data is validated using null handling, anomaly detection, type casting, normalization, Structured logging for
 traceability
 
-**3. Data Persistence Layer (Load)** - Relational database schema
-design - Indexed tables for optimized query performance -
-Aggregation-ready data modeling - SQL-based analytical validation
-queries
+**3. Data Persistence Layer (Load)** - Data is saved to database for future querying using SQL.
 
 ------------------------------------------------------------------------
 
-##cTechnology Stack
+## Technology Stack
 
 -   **Python 3.x**
 -   **Pandas** (data manipulation)
