@@ -1,6 +1,6 @@
-# 📦 Multi-Format ETL Pipeline (CSV, JSON, XML)
+# Multi-Format ETL Pipeline (CSV, JSON, XML)
 
-## 🚀 Project Overview
+## Summary
 
 This project demonstrates the implementation of a structured ETL
 (Extract, Transform, Load) pipeline capable of processing data from
@@ -73,18 +73,12 @@ python3.11 -m pip install pandas
 -   Export unified dataset
 -   Log execution timestamp using `datetime`
 
-This ETL approach reflects real-world scenarios such as:
-
--   Enterprise data integration
--   Financial data consolidation
--   Business intelligence pipelines
--   Data lake ingestion preprocessing
 
 ------------------------------------------------------------------------
 
 ## Execution
 
 ``` bash
-python etl_script.py
+python extract_transform_load_code.py
 ```
 
