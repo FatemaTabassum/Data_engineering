@@ -33,20 +33,7 @@ traceability
 -   **Requests / Data ingestion utilities**
 -   **SQLite / IBM DB2**
 -   **SQL**
--   **Logging Framework**
--   **Modular Script Design**
-
-------------------------------------------------------------------------
-
-## Project Structure
-
-    ├── etl_gdp.py              # Main ETL orchestration script
-    ├── data/
-    │   ├── raw/                # Raw extracted datasets
-    │   └── processed/          # Cleaned and transformed datasets
-    ├── database/
-    │   └── gdp_database.db     # Relational database storage
-    └── README.md               # Project documentation
+-   **Logging**
 
 ------------------------------------------------------------------------
 
