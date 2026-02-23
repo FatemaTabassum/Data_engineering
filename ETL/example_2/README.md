@@ -16,9 +16,7 @@ engineering workflows.
 
 ------------------------------------------------------------------------
 
-## 🏗️ Architecture Design
-
-### 1️⃣ Data Acquisition
+### Data Acquisition
 
 Download source files:
 
@@ -35,7 +33,7 @@ wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDevel
 
 ------------------------------------------------------------------------
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 -   Python 3.11+
 -   Pandas (data transformation)
@@ -51,9 +49,9 @@ python3.11 -m pip install pandas
 
 ------------------------------------------------------------------------
 
-## 🔄 ETL Workflow
+## ETL Workflow
 
-### 🔹 Extract
+### Extract
 
 -   Detect file formats dynamically using `glob`
 -   Parse:
@@ -62,45 +60,18 @@ python3.11 -m pip install pandas
     -   `.xml` via xml parsing library
 -   Load extracted data into Pandas DataFrames
 
-### 🔹 Transform
+### Transform
 
 -   Standardize column names
 -   Normalize data types
 -   Handle missing values
 -   Convert data into a consistent schema
 
-### 🔹 Load
+### Load
 
 -   Merge cleaned datasets
 -   Export unified dataset
 -   Log execution timestamp using `datetime`
-
-------------------------------------------------------------------------
-
-## 📂 Project Structure
-
-    ├── data/
-    │   ├── csv_files/
-    │   ├── json_files/
-    │   ├── xml_files/
-    ├── etl_script.py
-    ├── logs.txt
-    └── README.md
-
-------------------------------------------------------------------------
-
-## 📈 Engineering Capabilities Demonstrated
-
--   Multi-format data ingestion
--   Schema normalization
--   Modular ETL design
--   Logging and traceability
--   Automated file handling
--   Production-style scripting practices
-
-------------------------------------------------------------------------
-
-## 🎯 Real-World Applications
 
 This ETL approach reflects real-world scenarios such as:
 
@@ -111,14 +82,9 @@ This ETL approach reflects real-world scenarios such as:
 
 ------------------------------------------------------------------------
 
-## 🚀 Execution
+## Execution
 
 ``` bash
 python etl_script.py
 ```
 
-------------------------------------------------------------------------
-
-This project showcases practical data engineering skills aligned with
-industry standards, emphasizing automation, reproducibility, and clean
-data pipeline design.
