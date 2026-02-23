@@ -7,12 +7,12 @@ analyzed effectively and efficiently.
 
 ------------------------------------------------------------------------
 
-## The Data Engineering Process
+### The Data Engineering Process
 
 Data engineering typically follows a structured workflow known as
 **ETL**:
 
-### Extract
+#### Extract
 
 Data extraction involves gathering data from multiple sources.
 
@@ -30,7 +30,7 @@ and formats.
 
 ------------------------------------------------------------------------
 
-### Transform
+#### Transform
 
 Data transformation involves preparing the data for analysis.
 
@@ -46,7 +46,7 @@ consistent, and ready for further analysis.
 
 ------------------------------------------------------------------------
 
-### Load
+#### Load
 
 Loading refers to storing the processed data into a destination system,
 such as:
@@ -61,7 +61,7 @@ learning models.
 
 ------------------------------------------------------------------------
 
-## Working with Different File Formats
+### Working with Different File Formats
 
 In real-world scenarios, data rarely comes in neat, perfectly structured
 tables.
@@ -74,7 +74,7 @@ A data engineer must understand:
 
 ------------------------------------------------------------------------
 
-## File Formats
+### File Formats
 
 A **file format** is a standard way in which information is encoded for
 storage in a file.
@@ -93,7 +93,7 @@ For example:
 
 ------------------------------------------------------------------------
 
-## Identifying File Formats
+### Identifying File Formats
 
 You can usually identify a file format by its file extension.
 
@@ -108,7 +108,7 @@ which tools to use for reading it.
 
 ------------------------------------------------------------------------
 
-## Loading Data in Python
+### Loading Data in Python
 
 Datasets can be stored:
 
@@ -129,7 +129,7 @@ is a fundamental skill in data engineering.
 
 ------------------------------------------------------------------------
 
-## Summary
+### Summary
 
 Data Engineering involves:
 
