@@ -1,7 +1,7 @@
 # Data Engineering Fundamentals
 
 Data Engineering is one of the most critical and foundational skills in
-any data scientist's toolkit.\
+any data scientist's toolkit.
 It focuses on collecting, processing, and preparing data so it can be
 analyzed effectively and efficiently.
 
@@ -18,7 +18,7 @@ Data extraction involves gathering data from multiple sources.
 
 Examples include:
 
--   Web scraping data from websites\
+-   Web scraping data from websites
 -   Collecting data stored in various file formats such as:
     -   JSON
     -   CSV
@@ -36,9 +36,9 @@ Data transformation involves preparing the data for analysis.
 
 This includes:
 
--   Removing unnecessary or irrelevant data\
--   Cleaning missing or inconsistent values\
--   Converting data into a consistent structure\
+-   Removing unnecessary or irrelevant data
+-   Cleaning missing or inconsistent values
+-   Converting data into a consistent structure
 -   Standardizing formats across multiple sources
 
 The purpose of transformation is to ensure that all data is clean,
@@ -51,8 +51,8 @@ consistent, and ready for further analysis.
 Loading refers to storing the processed data into a destination system,
 such as:
 
--   A data warehouse\
--   A database\
+-   A data warehouse
+-   A database
 -   A data lake
 
 A **data warehouse** stores large volumes of structured data that can be
@@ -68,8 +68,8 @@ tables.
 
 A data engineer must understand:
 
--   Different file formats\
--   Common challenges when handling them\
+-   Different file formats
+-   Common challenges when handling them
 -   Efficient techniques for processing each format
 
 ------------------------------------------------------------------------
@@ -81,7 +81,7 @@ storage in a file.
 
 A file format typically specifies:
 
-1.  Whether the file is binary or text (ASCII)\
+1.  Whether the file is binary or text (ASCII)
 2.  How the information is organized within the file
 
 For example:
@@ -112,8 +112,8 @@ which tools to use for reading it.
 
 Datasets can be stored:
 
--   On your local machine\
--   On a remote server\
+-   On your local machine
+-   On a remote server
 -   Online (via URLs or APIs)
 
 In Python, especially in environments like **Jupyter Notebook**, you can
@@ -133,8 +133,8 @@ is a fundamental skill in data engineering.
 
 Data Engineering involves:
 
--   Extracting data from multiple sources\
--   Transforming it into a clean, consistent format\
+-   Extracting data from multiple sources
+-   Transforming it into a clean, consistent format
 -   Loading it into storage systems for analysis
 
 Mastering ETL processes and file handling techniques ensures reliable
