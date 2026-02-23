@@ -1,6 +1,6 @@
-# 📊 Production-Ready ETL Pipeline for GDP Data Engineering
+# ETL Pipeline for GDP Data Engineering
 
-## 🚀 Executive Summary
+## Executive Summary
 
 This project demonstrates the design and implementation of a
 production-style ETL (Extract, Transform, Load) data pipeline for
@@ -18,13 +18,11 @@ platforms.
 
 The pipeline follows a structured three-layer architecture:
 
-**1. Data Ingestion Layer (Extract)** - Programmatic data retrieval from
-structured sources (CSV/API/Web) - Raw data versioning for
-auditability - Fault-tolerant data acquisition
+**1. Data Ingestion Layer (Extract)** - data retrieval from
+structured sources (CSV/API/Web)
 
 **2. Data Processing Layer (Transform)** - Data validation and schema
-enforcement - Null handling and anomaly detection - Type casting and
-normalization - Business-rule-driven filtering - Structured logging for
+enforcement - Null handling, anomaly detection, type casting, normalization, Structured logging for
 traceability
 
 **3. Data Persistence Layer (Load)** - Relational database schema
@@ -34,7 +32,7 @@ queries
 
 ------------------------------------------------------------------------
 
-## 🛠️ Technology Stack
+##cTechnology Stack
 
 -   **Python 3.x**
 -   **Pandas** (data manipulation)
@@ -46,7 +44,7 @@ queries
 
 ------------------------------------------------------------------------
 
-## 📂 Project Structure
+## Project Structure
 
     ├── etl_gdp.py              # Main ETL orchestration script
     ├── data/
@@ -58,7 +56,7 @@ queries
 
 ------------------------------------------------------------------------
 
-## ⚙️ Key Engineering Features
+## Key Engineering Features
 
 -   Modular ETL orchestration
 -   Clean separation of extract, transform, and load stages
@@ -69,7 +67,7 @@ queries
 
 ------------------------------------------------------------------------
 
-## 📊 Sample Analytical Query
+## Sample Analytical Query
 
 ``` sql
 SELECT Country, AVG(GDP) AS Avg_GDP
@@ -79,16 +77,6 @@ ORDER BY Avg_GDP DESC;
 ```
 
 ------------------------------------------------------------------------
-
-## 📈 Business Impact
-
-This pipeline design mirrors enterprise-grade data workflows used in:
-
--   Financial risk modeling
--   Economic intelligence systems
--   Investment analytics platforms
--   Business intelligence dashboards
--   Policy research data infrastructure
 
 By implementing this system, the project demonstrates readiness for
 roles in:
@@ -101,7 +89,7 @@ roles in:
 
 ------------------------------------------------------------------------
 
-## 🎯 Core Competencies Demonstrated
+## Core Competencies Demonstrated
 
 -   End-to-end ETL pipeline design
 -   Data quality engineering
@@ -112,7 +100,7 @@ roles in:
 
 ------------------------------------------------------------------------
 
-## 🧪 How to Execute
+## How to Execute
 
 ``` bash
 pip install pandas requests
@@ -121,7 +109,7 @@ python etl_gdp.py
 
 ------------------------------------------------------------------------
 
-## 📌 Future Enhancements
+## Future Enhancements
 
 -   Docker containerization
 -   Airflow orchestration
