@@ -14,7 +14,7 @@ platforms.
 
 ------------------------------------------------------------------------
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 The pipeline follows a structured three-layer architecture:
 
